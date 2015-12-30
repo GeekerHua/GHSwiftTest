@@ -17,6 +17,22 @@ class Person: NSObject {
     var age: Int = 0        //使用KVC,基本数据类型必须设置初始值
     var height: Double?
     
+    // 遍历构造函数
+    /**
+        1. 遍历参数是否合法
+        2. 传递常用参数
+        3. 如果条件不满足,就返回nil,只有遍历构造函数可以返回nil
+        4. `指定的构造函数`不能返回nil,必须要返回一个对象
+        5. 只有遍历构造函数能够调用 self.init
+    */
+    convenience init?(name: String, age: Int) {
+        if age < 0 || age > 100 {
+            return nil
+        }
+        self.init(dict: ["name" : name, "age": age])
+    }
+    
+    
     init(dict: [String: AnyObject]) {
         super.init()  // 调用KVC方法之前,必须调用super.init
         setValuesForKeysWithDictionary(dict)
@@ -33,11 +49,11 @@ class Person: NSObject {
     }
     
     
-    // 重载构造函数
-    init(name: String, age: Int) {
-        self.name = name
-        self.age = age
-    }
+//    // 重载构造函数
+//    init(name: String, age: Int) {
+//        self.name = name
+//        self.age = age
+//    }
     
 
 //    override init() {
