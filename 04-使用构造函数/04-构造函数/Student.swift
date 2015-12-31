@@ -12,6 +12,9 @@ class Student: Person {
 
     var no: String?
     
+    deinit {
+        print("student deinit")
+    }
     
 //    override init(name: String, age: Int) {
 //        no = "0101"

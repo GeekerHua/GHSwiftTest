@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9045415C1C33B532002079DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045415B1C33B532002079DE /* AppDelegate.swift */; };
+		9045415E1C33B532002079DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045415D1C33B532002079DE /* ViewController.swift */; };
+		904541611C33B532002079DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9045415F1C33B532002079DE /* Main.storyboard */; };
+		904541631C33B532002079DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904541621C33B532002079DE /* Assets.xcassets */; };
+		904541661C33B532002079DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904541641C33B532002079DE /* LaunchScreen.storyboard */; };
+		904541711C33B532002079DE /* _6________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541701C33B532002079DE /* _6________Tests.swift */; };
+		9045417C1C33B532002079DE /* _6________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045417B1C33B532002079DE /* _6________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9045416D1C33B532002079DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904541501C33B532002079DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904541571C33B532002079DE;
+			remoteInfo = "06-闭包的循环引用";
+		};
+		904541781C33B532002079DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904541501C33B532002079DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904541571C33B532002079DE;
+			remoteInfo = "06-闭包的循环引用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		904541581C33B532002079DE /* 06-闭包的循环引用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06-闭包的循环引用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9045415B1C33B532002079DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9045415D1C33B532002079DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		904541601C33B532002079DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		904541621C33B532002079DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904541651C33B532002079DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		904541671C33B532002079DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9045416C1C33B532002079DE /* 06-闭包的循环引用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-闭包的循环引用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904541701C33B532002079DE /* _6________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_6________Tests.swift"; sourceTree = "<group>"; };
+		904541721C33B532002079DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904541771C33B532002079DE /* 06-闭包的循环引用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-闭包的循环引用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9045417B1C33B532002079DE /* _6________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_6________UITests.swift"; sourceTree = "<group>"; };
+		9045417D1C33B532002079DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904541551C33B532002079DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904541691C33B532002079DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904541741C33B532002079DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9045414F1C33B532002079DE = {
+			isa = PBXGroup;
+			children = (
+				9045415A1C33B532002079DE /* 06-闭包的循环引用 */,
+				9045416F1C33B532002079DE /* 06-闭包的循环引用Tests */,
+				9045417A1C33B532002079DE /* 06-闭包的循环引用UITests */,
+				904541591C33B532002079DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904541591C33B532002079DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904541581C33B532002079DE /* 06-闭包的循环引用.app */,
+				9045416C1C33B532002079DE /* 06-闭包的循环引用Tests.xctest */,
+				904541771C33B532002079DE /* 06-闭包的循环引用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9045415A1C33B532002079DE /* 06-闭包的循环引用 */ = {
+			isa = PBXGroup;
+			children = (
+				9045415B1C33B532002079DE /* AppDelegate.swift */,
+				9045415D1C33B532002079DE /* ViewController.swift */,
+				9045415F1C33B532002079DE /* Main.storyboard */,
+				904541621C33B532002079DE /* Assets.xcassets */,
+				904541641C33B532002079DE /* LaunchScreen.storyboard */,
+				904541671C33B532002079DE /* Info.plist */,
+			);
+			path = "06-闭包的循环引用";
+			sourceTree = "<group>";
+		};
+		9045416F1C33B532002079DE /* 06-闭包的循环引用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				904541701C33B532002079DE /* _6________Tests.swift */,
+				904541721C33B532002079DE /* Info.plist */,
+			);
+			path = "06-闭包的循环引用Tests";
+			sourceTree = "<group>";
+		};
+		9045417A1C33B532002079DE /* 06-闭包的循环引用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9045417B1C33B532002079DE /* _6________UITests.swift */,
+				9045417D1C33B532002079DE /* Info.plist */,
+			);
+			path = "06-闭包的循环引用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904541571C33B532002079DE /* 06-闭包的循环引用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904541801C33B532002079DE /* Build configuration list for PBXNativeTarget "06-闭包的循环引用" */;
+			buildPhases = (
+				904541541C33B532002079DE /* Sources */,
+				904541551C33B532002079DE /* Frameworks */,
+				904541561C33B532002079DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-闭包的循环引用";
+			productName = "06-闭包的循环引用";
+			productReference = 904541581C33B532002079DE /* 06-闭包的循环引用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9045416B1C33B532002079DE /* 06-闭包的循环引用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904541831C33B532002079DE /* Build configuration list for PBXNativeTarget "06-闭包的循环引用Tests" */;
+			buildPhases = (
+				904541681C33B532002079DE /* Sources */,
+				904541691C33B532002079DE /* Frameworks */,
+				9045416A1C33B532002079DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9045416E1C33B532002079DE /* PBXTargetDependency */,
+			);
+			name = "06-闭包的循环引用Tests";
+			productName = "06-闭包的循环引用Tests";
+			productReference = 9045416C1C33B532002079DE /* 06-闭包的循环引用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		904541761C33B532002079DE /* 06-闭包的循环引用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904541861C33B532002079DE /* Build configuration list for PBXNativeTarget "06-闭包的循环引用UITests" */;
+			buildPhases = (
+				904541731C33B532002079DE /* Sources */,
+				904541741C33B532002079DE /* Frameworks */,
+				904541751C33B532002079DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904541791C33B532002079DE /* PBXTargetDependency */,
+			);
+			name = "06-闭包的循环引用UITests";
+			productName = "06-闭包的循环引用UITests";
+			productReference = 904541771C33B532002079DE /* 06-闭包的循环引用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904541501C33B532002079DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GeekerHua;
+				TargetAttributes = {
+					904541571C33B532002079DE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9045416B1C33B532002079DE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 904541571C33B532002079DE;
+					};
+					904541761C33B532002079DE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 904541571C33B532002079DE;
+					};
+				};
+			};
+			buildConfigurationList = 904541531C33B532002079DE /* Build configuration list for PBXProject "06-闭包的循环引用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9045414F1C33B532002079DE;
+			productRefGroup = 904541591C33B532002079DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904541571C33B532002079DE /* 06-闭包的循环引用 */,
+				9045416B1C33B532002079DE /* 06-闭包的循环引用Tests */,
+				904541761C33B532002079DE /* 06-闭包的循环引用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904541561C33B532002079DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904541661C33B532002079DE /* LaunchScreen.storyboard in Resources */,
+				904541631C33B532002079DE /* Assets.xcassets in Resources */,
+				904541611C33B532002079DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9045416A1C33B532002079DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904541751C33B532002079DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904541541C33B532002079DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9045415E1C33B532002079DE /* ViewController.swift in Sources */,
+				9045415C1C33B532002079DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904541681C33B532002079DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904541711C33B532002079DE /* _6________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904541731C33B532002079DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9045417C1C33B532002079DE /* _6________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9045416E1C33B532002079DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904541571C33B532002079DE /* 06-闭包的循环引用 */;
+			targetProxy = 9045416D1C33B532002079DE /* PBXContainerItemProxy */;
+		};
+		904541791C33B532002079DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904541571C33B532002079DE /* 06-闭包的循环引用 */;
+			targetProxy = 904541781C33B532002079DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9045415F1C33B532002079DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904541601C33B532002079DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		904541641C33B532002079DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904541651C33B532002079DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9045417E1C33B532002079DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9045417F1C33B532002079DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904541811C33B532002079DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "06-闭包的循环引用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geekerhua.-6--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		904541821C33B532002079DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "06-闭包的循环引用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geekerhua.-6--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		904541841C33B532002079DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "06-闭包的循环引用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geekerhua.-6--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06-闭包的循环引用.app/06-闭包的循环引用";
+			};
+			name = Debug;
+		};
+		904541851C33B532002079DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "06-闭包的循环引用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geekerhua.-6--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06-闭包的循环引用.app/06-闭包的循环引用";
+			};
+			name = Release;
+		};
+		904541871C33B532002079DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "06-闭包的循环引用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geekerhua.-6--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "06-闭包的循环引用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		904541881C33B532002079DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "06-闭包的循环引用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geekerhua.-6--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "06-闭包的循环引用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904541531C33B532002079DE /* Build configuration list for PBXProject "06-闭包的循环引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9045417E1C33B532002079DE /* Debug */,
+				9045417F1C33B532002079DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904541801C33B532002079DE /* Build configuration list for PBXNativeTarget "06-闭包的循环引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904541811C33B532002079DE /* Debug */,
+				904541821C33B532002079DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		904541831C33B532002079DE /* Build configuration list for PBXNativeTarget "06-闭包的循环引用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904541841C33B532002079DE /* Debug */,
+				904541851C33B532002079DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		904541861C33B532002079DE /* Build configuration list for PBXNativeTarget "06-闭包的循环引用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904541871C33B532002079DE /* Debug */,
+				904541881C33B532002079DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904541501C33B532002079DE /* Project object */;
+}

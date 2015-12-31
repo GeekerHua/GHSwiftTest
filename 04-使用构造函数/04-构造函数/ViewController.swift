@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         
         
 //        let p = Student(dict: ["name":"zhagnsan", "age": 18, "no": "001","xxx" : "ddd"])
-        let p = Person.init(name: "张三", age: 1000)
+        let p = Student.init(name: "张三", age: 10)
         print("\(p?.name) \(p?.age) ")
     }
 }

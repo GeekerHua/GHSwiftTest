@@ -8,6 +8,8 @@
 
 import UIKit
 
+// 析构函数,相当于delloc
+
 class Person: NSObject {
 
     // 如果没实现构造函数,会执行父类的构造函数
@@ -16,6 +18,10 @@ class Person: NSObject {
     var name: String? // 因为是非可选的,所以要赋值
     var age: Int = 0        //使用KVC,基本数据类型必须设置初始值
     var height: Double?
+    
+    deinit {
+        print("persion deinit")
+    }
     
     // 遍历构造函数
     /**
