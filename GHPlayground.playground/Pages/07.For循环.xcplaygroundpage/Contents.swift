@@ -20,4 +20,8 @@ for i in range {
     print(i)
 }
 
+for (index,value) in [2,24,45,7567,3].enumerate() {
+    print("index = \(index) value = \(value)")
+}
+
 //: [Next](@next)

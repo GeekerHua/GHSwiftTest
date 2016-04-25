@@ -50,7 +50,7 @@ static NetworkTools *instance;
 - (RACSignal *)request:(RequestMethod)method URLString:(NSString *)URLString parameters:(id)parmaeters{
     
     NSString *methodName = (method == GET) ? @"GET" : @"POST";
-    
+
     
     return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         [[self dataTaskWithHTTPMethod:methodName URLString:URLString parameters:parmaeters uploadProgress:nil downloadProgress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {

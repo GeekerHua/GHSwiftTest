@@ -12,5 +12,9 @@
         <page name='09.字典'/>
         <page name='10.函数'/>
         <page name='11.闭包'/>
+        <page name='其它'/>
+        <page name='反射'/>
+        <page name='文字匹配'/>
+        <page name='枚举'/>
     </pages>
 </playground>

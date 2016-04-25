@@ -20,6 +20,7 @@ class Person: NSObject {
     var height: Double?
     
     deinit {
+        
         print("persion deinit")
     }
     
@@ -35,6 +36,7 @@ class Person: NSObject {
         if age < 0 || age > 100 {
             return nil
         }
+        
         self.init(dict: ["name" : name, "age": age])
     }
     

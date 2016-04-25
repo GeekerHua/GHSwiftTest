@@ -21,6 +21,14 @@ let p :CGFloat = 20
 let q  = 2.3
 p + CGFloat(q)
 
+INT8_MAX
+Int8.max
+INT_MAX
+
+typealias dd = Double
+let pp: dd = 23
+pp + 23 + 78.88
+
 
 //  类型要求严格，任何情况都不会进行隐式转换。两个值进行计算，必须是相同类型
 let num1 = 1

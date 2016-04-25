@@ -4,6 +4,7 @@ import UIKit
 
 let array = ["张三","李四"]
 let array2 = ["张三",18,UIView()]
+let array3 = [Int](count: 3, repeatedValue: 32)
 
 for name in array {
     print(name)
@@ -56,6 +57,7 @@ print(arrayM3.capacity)
 var arr1 = [1,2,3,4,5]
 var arr2 = [6,7,8,9,10]
 var arr3 = ["13","33"]
+arr2 + arr1
 arr1 += arr2
 //arr1 += arr3  // 数组类型不同无法拼接
 
