@@ -57,6 +57,22 @@ searchBar.barTintColor = UIColor.whiteColor()
 
 searchBar
 
+class People: NSObject {
+    var name = "picker"
+}
 
+var arrM = [[People]]()
+let p2 = People()
+let arr1 = [p2]
+print(arr1)
+arrM.append(arr1)
+arrM
+print(arrM[0].count)
+arrM[0][0]
+
+(((7.0 - 5.0) % 10.0) > 0) ? 1 : 0
+Int((26.0 - 5.0) / 10.0)
+
+Int((11.0 - 5.0) / 10.0) + ((((7.0 - 5.0) % 10.0) > 0) ? 1 : 0)
 
 

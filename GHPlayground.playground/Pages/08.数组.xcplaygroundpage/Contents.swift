@@ -63,3 +63,21 @@ arr1 += arr2
 
 
 //: [Next](@next)
+
+
+let a1 = ["23", "33"]
+let a2 = ["23", "33"]
+a1 == a2
+
+
+let t = [("111",1), ("222",2)]
+//let p = t.filter { (tuples) -> Bool in
+//    if let _ = tuples.0 as! String {
+//        return true
+//    } else {
+//        reuturn false
+//    }
+//}
+
+
+

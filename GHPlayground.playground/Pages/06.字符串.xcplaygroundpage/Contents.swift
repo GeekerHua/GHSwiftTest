@@ -2,6 +2,8 @@
 
 import UIKit
 
+let d = Double("55")
+
 
 // String 是结构体,效率更高,推荐使用String,支持遍历
 var str: String = "\"你好世界\""
@@ -46,19 +48,26 @@ let st = "3.600"
 let timeSt = String(format: "h = %.01f: m = %.0f st = %.01f", arguments: [h,m/100,NSString(string:st).doubleValue])
 
 
+let p = NSNumber(double: 148)
+//let d = String(format: "￥ %.02f", p.doubleValue)
+print(d)
+
 let timeStr = "\(h):\(m):\(s)"
 let timeStr1 = String(format: "%02d:%02d:%02d", arguments: [h,m,s])
 
 String(format: "%f", arguments: [23.432])
 let price: Double = 2.9
 String(format:"\(price)")
-Int(price)
+var p3: String?
+p3 = "33d"
+Int(p3!)
 
 
 let possibleString: String? = "An optional string."
 let forcedString: String = possibleString! // 需要惊叹号来获取值
 possibleString
 
+word.stringByReplacingOccurrencesOfString("fde", withString: "")
 // 获取字符
 word.startIndex
 word.endIndex
@@ -97,3 +106,15 @@ let text = "珍贵的“北美红宝石”<br /> <br />蔓越莓也称小红莓�
 
 text.stringByReplacingOccurrencesOfString("<br />", withString: "\n", options: NSStringCompareOptions.LiteralSearch, range: nil)
 //: [Next](@next)
+
+
+// 去掉url中的没用字符
+
+let u = "\t\nhttp://static.tongshijia.com/images/index/2016/06/03/4bb0ac2e-293b-11e6-b8d8-00163e1600b6.jpg\r\n"
+let t = "sdfsdf:"
+t.rangeOfString("\n")
+//let u: String? = nil
+let set = NSCharacterSet.whitespaceAndNewlineCharacterSet()
+let result = u.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+print(result)
+

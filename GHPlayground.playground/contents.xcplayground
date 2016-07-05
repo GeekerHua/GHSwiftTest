@@ -16,5 +16,13 @@
         <page name='反射'/>
         <page name='文字匹配'/>
         <page name='枚举'/>
+        <page name='image'/>
+        <page name='Untitled Page'/>
+        <page name='copy'/>
+        <page name='NSURlSession'/>
+        <page name='自定义运算符'/>
+        <page name='map'/>
+        <page name='匹配模式'/>
+        <page name='date'/>
     </pages>
 </playground>
